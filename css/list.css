@@ -1,0 +1,97 @@
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.sk_list{
+    float: left;
+    height: 45px;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 30px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    content:'\e91e' ;
+    font-family:'icomoon';
+}
+.sk_bd{
+    overflow: hidden;
+}
+.sk_bd ul{
+    width: 1220px;
+}
+.sk_bd ul li{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    padding-left: 12px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #c81523;
+}
+.sk_bd ul li a{
+    font-size: 14px;
+}
+.sk_bd ul li i{
+    font-size: 22px;
+    color: red;
+}
+.sk_bd ul li del{
+    font-size: 14px;
+    color: #a4a4a4;
+}
+.yishou .bar{
+    display: inline-block;
+    height: 14px;
+    width: 130px;
+    border: 1px solid #b1191a;
+    border-radius: 7px;
+    vertical-align:text-bottom;
+}
+.bar_in{
+    width: 89%;
+    height: 100%;
+    background-color: #b1191a;
+}
+.sk_bd ul li .purchase{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+   text-align: center;
+}
+
+
