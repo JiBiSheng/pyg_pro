@@ -22,7 +22,7 @@
 }
 .arrow-l,
 .arrow-r {
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 50%;
     margin-top: -20px;
@@ -38,6 +38,9 @@
 }
 .arrow-r {
     right: 0;
+}
+.current{
+    background-color: #fff;
 }
 .circle {
     position: absolute;
