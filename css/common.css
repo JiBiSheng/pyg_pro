@@ -157,11 +157,8 @@
     text-align: center;
     line-height: 45px;
 }
-.dropdown:hover .dd{
-    display: block;
-}
+
 .dropdown .dd{
-    display: none;
     width: 210px;
     height: 465px;
     margin-top: 2px;
